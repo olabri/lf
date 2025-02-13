@@ -1,8 +1,6 @@
 enabled: true
 folders:
   - pages
-  - themes
-  - plugins
   - config
   - data
 SyncNotice: null
@@ -15,11 +13,11 @@ sync:
 local_repository: null
 repository: 'https://github.com/olabri/lf.git'
 no_user: '1'
-user: olav
-password: gitsync-def50200c0518d3ee500da1014af6525d14424607560e615c651dccfe5183d7de95b9637e78e1d0d0ede867188253c91cb2fb4a047b5ed09359cd61d1276d627ae651914bc40f9872dd187de6bdfbed24c53cd4f3ddb622b7ddf2b535fe0af1c4c168a29ca7acf0f8810b79e9def73b002603025fb29415d817bbe67e706d1e74766d0a3e66ce2d8858eacc874ed7c1adca491aaa9bfc2649381d0ea3855db8aca5a0fb2637506c7c332a224c6cb1cc266
-webhook: 'https://jaggu.org/lf_grav/_git-sync-4d46860739d1'
+user: olabri
+password: gitsync-def502000fbf4ce0693c7529c03e3d49ef8fead6b8bc945385fc2c6c97e8f7c02a14ba1382b3618fed01c81e00bca8635a7713e6f6761c80fb78654f0d826aa2611a4d366434e0a191e8e16f725f28a2d4d7fa9bf1e4d88a42e7a2b5dd32344834649b08146eacd763d0a42a0afb90e5a91083ddc9331372c7881f5766111680cb8fdab62b7f5400ff81e897b5025d514b799ac625cbfa196236f865bcc90d2ae82db07de0fa54f54f29db0a4724a3777d
+webhook: 'https://jaggu.org/lf_g/_git-sync-4d46860739d1'
 webhook_enabled: '0'
-webhook_secret: e156435dfcd1163bd25ff5e60d63d8dc551b32511574f71d
+webhook_secret: 7065684f6ba1f9a96c16e303ee496313a1ac8f4f140da5c3
 branch: master
 remote:
   name: origin
@@ -32,4 +30,4 @@ git:
   bin: git
   ignore: null
   private_key: null
-logging: true
+logging: false

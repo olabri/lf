@@ -1,9 +1,9 @@
 version: '1.2'
-timestamp: 1739476153
+timestamp: 1739477268
 count: 1
 index:
   olav:
     storage_key: olav
-    storage_timestamp: 1739476146
+    storage_timestamp: 1739506602
     key: olav
     email: olav@jaggu.org
