@@ -1,0 +1,35 @@
+enabled: true
+folders:
+  - pages
+  - themes
+  - plugins
+  - config
+  - data
+SyncNotice: null
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+local_repository: null
+repository: 'https://github.com/olabri/lf.git'
+no_user: '1'
+user: olav
+password: gitsync-def50200c0518d3ee500da1014af6525d14424607560e615c651dccfe5183d7de95b9637e78e1d0d0ede867188253c91cb2fb4a047b5ed09359cd61d1276d627ae651914bc40f9872dd187de6bdfbed24c53cd4f3ddb622b7ddf2b535fe0af1c4c168a29ca7acf0f8810b79e9def73b002603025fb29415d817bbe67e706d1e74766d0a3e66ce2d8858eacc874ed7c1adca491aaa9bfc2649381d0ea3855db8aca5a0fb2637506c7c332a224c6cb1cc266
+webhook: 'https://jaggu.org/lf_grav/_git-sync-4d46860739d1'
+webhook_enabled: '0'
+webhook_secret: e156435dfcd1163bd25ff5e60d63d8dc551b32511574f71d
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  message: '(Grav GitSync) Automatic Commit'
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+  ignore: null
+  private_key: null
+logging: true
