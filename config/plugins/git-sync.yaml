@@ -15,8 +15,8 @@ repository: 'https://github.com/olabri/lf.git'
 no_user: '1'
 user: olabri
 password: gitsync-def502000fbf4ce0693c7529c03e3d49ef8fead6b8bc945385fc2c6c97e8f7c02a14ba1382b3618fed01c81e00bca8635a7713e6f6761c80fb78654f0d826aa2611a4d366434e0a191e8e16f725f28a2d4d7fa9bf1e4d88a42e7a2b5dd32344834649b08146eacd763d0a42a0afb90e5a91083ddc9331372c7881f5766111680cb8fdab62b7f5400ff81e897b5025d514b799ac625cbfa196236f865bcc90d2ae82db07de0fa54f54f29db0a4724a3777d
-webhook: 'https://jaggu.org/lf_g/_git-sync-4d46860739d1'
-webhook_enabled: '0'
+webhook: 'https://jaggu.org/lf_grav/_git-sync-4d46860739d1'
+webhook_enabled: '1'
 webhook_secret: 7065684f6ba1f9a96c16e303ee496313a1ac8f4f140da5c3
 branch: master
 remote:
