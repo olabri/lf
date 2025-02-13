@@ -5,9 +5,9 @@ folders:
   - data
 SyncNotice: null
 sync:
-  on_save: true
-  on_delete: true
-  on_media: true
+  on_save: false
+  on_delete: false
+  on_media: false
   cron_enable: false
   cron_at: '0 12,23 * * *'
 local_repository: null
