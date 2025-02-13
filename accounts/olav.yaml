@@ -1,11 +1,16 @@
 state: enabled
 email: olav@jaggu.org
-fullname: Olav
+fullname: 'Olav Bringedal'
 title: Admin
+hashed_password: $2y$10$D3YbZaANnv2BZAron4/aI.D0fs.IhvthMaJE0erdZNaeihpxKjbtm
+language: en
+content_editor: default
+twofa_enabled: false
+twofa_secret: DJ3XK6XEFDWUWLPLSB6MKKHKTMX3P7ME
+avatar: {  }
 access:
+  site:
+    login: true
   admin:
     login: true
     super: true
-  site:
-    login: true
-hashed_password: $2y$10$D3YbZaANnv2BZAron4/aI.D0fs.IhvthMaJE0erdZNaeihpxKjbtm
